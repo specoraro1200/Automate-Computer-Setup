@@ -24,7 +24,9 @@ dockutil --remove "TV"
 dockutil --remove "Podcasts"
 dockutil --remove "Music"
 dockutil --remove "Photos"
+dockutil --remove "Maps"
 dockutil --remove "App Store"
+
 dockutil --add /Applications/FireFox.app
 dockutil --add /Applications/Adobe\ Acrobat\ Reader\ DC.app
 dockutil --add /Applications/Google\ Chrome.app
