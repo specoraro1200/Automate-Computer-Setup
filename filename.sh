@@ -25,7 +25,13 @@ osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/S
 osascript -e 'tell app "System Events" to set current screen saver to screen saver "FloatingMessage"'
 
 defaults write com.apple.systemuiserver menuExtras -array \
+"/System/Library/CoreServices/Menu Extras/AirPort.menu" \
 "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
+"/System/Library/CoreServices/Menu Extras/Clock.menu" \
+"/System/Library/CoreServices/Menu Extras/Displays.menu" \
+"/System/Library/CoreServices/Menu Extras/Volume.menu"
+
+killall SystemUIServer
 
 dockutil --remove "News"
 dockutil --remove "TV"
