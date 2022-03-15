@@ -2,4 +2,4 @@
 
 Elimanates time to deploy new computers by automating basic tasks that would otherwise require manual labor.
 
-Simply running this code will download apps, configure settings, and 
+Simply running this script will download necessary apps, configure settings, and clean up computer display.
