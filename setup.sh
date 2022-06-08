@@ -1,13 +1,13 @@
 #! /bin/bash
 
-sudo dscl . -create /Users/Admin@Mikan
-sudo dscl . -create /Users/Admin@Mikan UserShell /bin/bash
-sudo dscl . -create /Users/Admin@Mikan realname 'Admin @Mikan'
-sudo dscl . -create /Users/Admin@Mikan UniqueID 1001
-sudo dscl . -create /Users/Admin@Mikan PrimaryGroupID 1000
-sudo dscl . -create /Users/Admin@Mikan NFSHomeDirectory /Local/Users/Admin@Mikan
-sudo dscl . -passwd /Users/Admin@Mikan adminpassword1
-sudo dscl . -append /Groups/admin GroupMembership Admin@Mikan
+# sudo dscl . -create /Users/Admin@Mikan
+# sudo dscl . -create /Users/Admin@Mikan UserShell /bin/bash
+# sudo dscl . -create /Users/Admin@Mikan realname 'Admin @Mikan'
+# sudo dscl . -create /Users/Admin@Mikan UniqueID 1001
+# sudo dscl . -create /Users/Admin@Mikan PrimaryGroupID 1000
+# sudo dscl . -create /Users/Admin@Mikan NFSHomeDirectory /Local/Users/Admin@Mikan
+# sudo dscl . -passwd /Users/Admin@Mikan adminpassword1
+# sudo dscl . -append /Groups/admin GroupMembership Admin@Mikan
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install dockutil
